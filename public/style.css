@@ -1,0 +1,56 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center content vertically */
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Basic typography */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;   
+  }
+  
+  h1, h2 {
+    margin-bottom: 15px;
+    text-align: center; 
+  }
+  
+  /* Page layout */
+  main {
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Content */
+  h1 {
+    font-size: 2em; 
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  /* Media queries */
+  @media (max-width: 600px) {
+  
+    /* Styles here */
+  
+  }
